@@ -1,0 +1,17 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome!</h1>
+    <br>
+    <p>This is a basic website made using ASP.NET that contains a youtube video of one of my favorite songs to listen to while coding.</p>
+    <br>
+    <div id="animate">
+        <p id="txt"><button onclick="myMove(); play();">Click me to see video!</button></p>
+        <div id="youtube-video"></div>
+    </div>
+    <br>
+</div>
